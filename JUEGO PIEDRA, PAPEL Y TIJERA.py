@@ -1,14 +1,14 @@
 # Juego Piedra, Papel o Tijera en Python con validaciones y mejoras
 
 # Definimos variables para almacenar nombres y resultados
-nombre1 = ""
-nombre2 = ""
-opcion1 = ""
-opcion2 = ""
-seguir = ""
-gana1 = 0
-gana2 = 0
-empates = 0
+nombre1 = ""  # Nombre del jugador 1
+nombre2 = ""  # Nombre del jugador 2
+opcion1 = ""  # Opción elegida por el jugador 1 (Piedra, Papel o Tijera)
+opcion2 = ""  # Opción elegida por el jugador 2 (Piedra, Papel o Tijera)
+seguir = ""   # Variable para controlar si los jugadores desean seguir jugando
+gana1 = 0     # Contador de victorias del jugador 1
+gana2 = 0     # Contador de victorias del jugador 2
+empates = 0   # Contador de empates
 
 # Diccionario para saber qué opción gana a cuál
 ganador = {
